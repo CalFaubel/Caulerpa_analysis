@@ -1,179 +1,179 @@
-name,nID,Region,Cmmn_nm,Per_total,lon,lat
-Mainland Marina 1,1053,Northland Region,Whangaroa Marina,0.831980519,173.7419182,-35.06394306
-Mainland Marina 2,1054,Northland Region,Bay of Islands' Marinas,0.744047619,174.1034276,-35.24046385
-Mainland Marina 3,1055,Northland Region,Tutukaka Marina,0.426136364,174.5550817,-35.60459378
-Mainland Marina 4,1056,Northland Region,Whangarei Marinas,0.689935065,174.4165507,-35.81754382
-Mainland Marina 5,1057,Auckland Region,Unnamed,0.175865801,174.735756,-36.39353753
-Mainland Marina 6,1058,Auckland Region,Unnamed,1.346049784,174.7883551,-36.62095278
-Mainland Marina 7,1059,Auckland Region,Unnamed,0.121753247,174.7690231,-36.74168089
-Mainland Marina 8,1060,Auckland Region,Unnamed,0.148809524,174.673938,-36.81816769
-Mainland Marina 9,1061,Auckland Region,Unnamed,3.145292208,174.7806808,-36.84457157
-Mainland Marina 10,1062,Auckland Region,Unnamed,1.691017316,174.9243674,-36.88052382
-Mainland Marina 11,1063,Waikato Region,Unnamed,1.170183983,175.7063407,-36.82209969
-Mainland Marina 12,1064,Waikato Region,Unnamed,0.135281385,175.8601196,-37.00047603
-Mainland Marina 13,1065,Waikato Region,Unnamed,0.250270563,175.8665103,-37.19703585
-Mainland Marina 14,1066,Bay of Plenty Region,Unnamed,3.314393939,176.1807249,-37.667248
-Mainland Marina 15,1067,Gisborne Region,Unnamed,0.317911255,178.0256868,-38.68653852
-Mainland Marina 16,1068,Hawke's Bay Region,Unnamed,1.860119048,176.8923432,-39.48322706
-Mainland Marina 18,1070,Wellington Region,Unnamed,2.455357143,174.8261267,-41.34827185
-Mainland Marina 19,1071,Marlborough Region,Unnamed,0.067640693,174.0202282,-41.26468043
-Mainland Marina 20,1072,Marlborough Region,Unnamed,0.006764069,173.7785515,-41.27600706
-Mainland Marina 21,1073,Nelson Region,Unnamed,1.210768398,173.2811255,-41.25983531
-Mainland Marina 24,1076,Canterbury Region,Unnamed,0.006764069,172.7009228,-43.57161984
-Mainland Mooring 7,1087,Bay of Plenty Region,Unnamed,0.027056277,175.9785278,-37.48899576
-Mainland Mooring 8,1088,Bay of Plenty Region,Unnamed,0.209686147,176.0536736,-37.63516661
-Mainland Mooring 9,1089,Bay of Plenty Region,Unnamed,0.635822511,176.1834135,-37.66859873
-Mainland Mooring 12,1092,Taranaki Region,Unnamed,0.006764069,174.0456748,-39.05704043
-Mainland Mooring 15,1095,Southland Region,Unnamed,0.006764069,167.8981267,-44.64329182
-Mainland Mooring 16,1096,Southland Region,Unnamed,0.006764069,166.983933,-45.13213894
-Mainland Mooring 21,1101,Wellington Region,Unnamed,0.189393939,174.8476577,-41.35326034
-Mainland Mooring 25,1105,Waikato Region,Unnamed,0.974025974,175.434167,-36.82463204
-Mainland Mooring 26,1106,Waikato Region,Unnamed,1.170183983,175.4757936,-36.7642383
-Mainland Mooring 27,1107,Waikato Region,Unnamed,0.534361472,175.465709,-36.52258606
-Mainland Mooring 28,1108,Waikato Region,Great Mercury Island Moorings,4.856601732,175.7728926,-36.60053899
-Mainland Mooring 29,1109,Waikato Region,Unnamed,0.791396104,175.8149589,-36.76080981
-Mainland Mooring 30,1110,Waikato Region,Unnamed,0.73728355,175.7147573,-36.82193521
-Mainland Mooring 31,1111,Waikato Region,Unnamed,0.033820346,175.854999,-37.00717305
-Mainland Mooring 32,1112,Waikato Region,Unnamed,0.223214286,175.8764112,-37.19695687
-Mainland Mooring 34,1114,Northland Region,Houhora Moorings,0.027056277,173.1525769,-34.84282629
-Mainland Mooring 35,1115,Northland Region,Inner Bay of Islands' Moorings,0.520833333,174.1158118,-35.24542248
-Mainland Mooring 36,1116,Northland Region,Outer Bay of Islands' Moorings,5.749458874,174.2344349,-35.23128279
-Mainland Mooring 37,1117,Northland Region,Te Puna Inlet Moorings,0.074404762,174.0281519,-35.11777579
-Mainland Mooring 39,1119,Auckland Region,Unnamed,0.027056277,174.6263955,-36.08844195
-Mainland Mooring 40,1120,Northland Region,Mangonui Moorings,0.649350649,173.5128284,-34.9897998
-Mainland Mooring 41,1121,Northland Region,Tutukaka Moorings,1.981872294,174.5511198,-35.62076887
-Mainland Mooring 42,1122,Northland Region,Outer Whangarei Harbour Moorings,0.635822511,174.5217148,-35.83060401
-Mainland Mooring 43,1123,Northland Region,Inner/Central Whangarei Harbour Moorings,0.209686147,174.4161348,-35.80984226
-Mainland Mooring 44,1124,Northland Region,Whangaroa Moorings,1.738365801,173.767753,-35.00289248
-Mainland Mooring 45,1125,Northland Region,Motukawaiti Island & Putataua Bay Moorings,0.723755411,173.9259023,-35.02296557
-Mainland Mooring 46,1126,Northland Region,Bland Bay Moorings,1.298701299,174.3886828,-35.39075876
-Mainland Mooring 47,1127,Northland Region,Whangaruru Moorings,1.711309524,174.3411403,-35.3128583
-Mainland Mooring 48,1128,Northland Region,Rangaunu Pile Moorings,0.006764069,173.2714332,-34.91396238
-Mainland Mooring 49,1129,Auckland Region,Unnamed,0.114989177,174.80468,-36.30038057
-Mainland Mooring 50,1130,Auckland Region,Tryphena Harbour Moorings,0.974025974,175.4843148,-36.32646577
-Mainland Mooring 51,1131,Auckland Region,Blind Bay and Whangaparapara Harbour Moorings,1.772186147,175.3949998,-36.26189717
-Mainland Mooring 52,1132,Auckland Region,Port Fitzroy/Abercrombie Moorings,5.715638528,175.345222,-36.16394119
-Mainland Mooring 53,1133,Auckland Region,Unnamed,0.162337662,174.7427249,-36.40368021
-Mainland Mooring 54,1134,Auckland Region,Unnamed,0.595238095,174.7262661,-36.49824124
-Mainland Mooring 55,1135,Auckland Region,Unnamed,0.216450216,174.7458767,-36.63214297
-Mainland Mooring 57,1137,Auckland Region,Unnamed,0.020292208,175.1695681,-36.93554243
-Mainland Mooring 58,1138,Auckland Region,Unnamed,3.551136364,174.9849346,-36.75476649
-Mainland Mooring 59,1139,Auckland Region,Unnamed,0.73728355,175.0339161,-36.82694775
-Mainland Mooring 60,1140,Auckland Region,Unnamed,1.433982684,175.0542783,-36.77993391
-Mainland Mooring 61,1141,Auckland Region,Unnamed,1.461038961,175.1652109,-36.84364404
-Mainland Mooring 62,1142,Auckland Region,Unnamed,0.514069264,174.9063578,-36.88621789
-Mainland Mooring 63,1143,Auckland Region,Unnamed,0.229978355,174.6975767,-36.83036881
-Mainland Mooring 64,1144,Auckland Region,Unnamed,0.859036797,174.79914,-36.83358315
-Mainland Mooring 65,1145,Auckland Region,Unnamed,4.389880952,174.8290975,-36.42373967
-Mainland Mooring 70,1150,Marlborough Region,Unnamed,0.006764069,173.8027296,-40.86191072
-Mainland Mooring 71,1151,Marlborough Region,Unnamed,0.006764069,173.8817476,-40.93293454
-Mainland Mooring 82,1162,Marlborough Region,Unnamed,0.040584416,174.2187235,-41.18970751
-Mainland Mooring 85,1165,Marlborough Region,Unnamed,0.385551948,174.0064001,-41.25101231
-Mainland Mooring 98,1178,Tasman Region,Unnamed,0.006764069,173.0812631,-40.94102737
-Mainland MR 2,1185,Bay of Plenty Region,Unnamed,1.224296537,176.2608625,-37.26126482
-Mainland MR 3,1186,Auckland Region,Unnamed,0.054112554,174.8403369,-36.35809371
-Mainland MR 4,1187,Northland Region,Poor Knights Islands Marine Reserve,0.263798701,174.7214806,-35.48802768
-Mainland MR 5,1188,Southland Region,Unnamed,0.013528139,168.109126,-46.94073307
-Mainland MR 7,1191,Southland Region,Unnamed,0.006764069,167.8913258,-44.63457861
-Mainland MR 9,1193,Southland Region,Unnamed,0.006764069,167.0370248,-45.36280186
-Mainland MR 10,1194,Southland Region,Unnamed,0.006764069,166.8294197,-45.74524508
-Mainland MR 18,1202,Marlborough Region,Unnamed,0.006764069,174.2875294,-41.11421859
-Mainland MR 19,1203,Northland Region,Whangarei Harbour Marine Reserve,1.521915584,174.3933379,-35.793184
-Mainland MR 22,1206,Auckland Region,Unnamed,0.013528139,175.1322949,-36.84831226
-Mainland MR 23,1207,Waikato Region,Unnamed,0.074404762,175.7916131,-36.81974085
-Mainland MR 37,1221,Auckland Region,Unnamed,0.006764069,174.7947224,-36.26481851
-Mainland MR 38,1222,Auckland Region,Unnamed,0.006764069,174.6789778,-36.8681218
-Mainland MR 39,1223,Auckland Region,Unnamed,0.189393939,174.7452518,-36.66511713
-Mainland CHS 2,1226,Northland Region,Tapotupotu Bay,0.006764069,172.715136,-34.43280368
-Mainland CHS 3,1227,Northland Region,Waitangi Stream,0.013528139,172.9620344,-34.42625992
-Mainland CHS 4,1228,Northland Region,Matai Bay,0.081168831,173.4378321,-34.8242665
-Mainland CHS 5,1229,Northland Region,Waimahana Bay,0.101461039,173.6252551,-34.94874268
-Mainland CHS 7,1231,Northland Region,Ngunguru River & Taiharuru Bay,0.074404762,174.578853,-35.74037133
-Mainland CHS 8,1232,Northland Region,Bream Bay,0.054112554,174.4837679,-35.97259011
-Mainland CHS 11,1235,Waikato Region,Unnamed,0.317911255,175.4108473,-36.58847647
-Mainland CHS 12,1236,Waikato Region,Unnamed,0.020292208,175.5534749,-36.58847647
-Mainland CHS 13,1237,Waikato Region,Unnamed,0.006764069,175.8876789,-37.11066046
-Mainland CHS 20,1244,Gisborne Region,Unnamed,0.027056277,178.3465989,-37.59770459
-Mainland CHS 21,1245,Gisborne Region,Unnamed,0.006764069,178.3052179,-38.37488026
-Mainland CHS 22,1246,Gisborne Region,Unnamed,0.020292208,177.9473952,-38.78323363
-Mainland CHS 63,1287,Auckland Region,Rangiwhakaea Bay,0.263798701,175.4310681,-36.10812881
-Mainland CHS 64,1288,Auckland Region,Awana Bay,0.223214286,175.477856,-36.2195626
-Mainland Beach 10,1376,Waikato Region,Unnamed,0.162337662,175.7914444,-36.69344444
-Mainland Beach 24,1390,Auckland Region,Kaitoke Beach,0.223214286,175.4841941,-36.24546418
-Mainland Beach 29,1395,Auckland Region,Overtons Beach,0.114989177,175.4821611,-36.15459448
-Mainland Beach 34,1400,Northland Region,Tokerau Beach,0.006764069,173.3902896,-34.90263937
-Mainland Beach 35,1401,Northland Region,Waikuku Beach,0.020292208,173.0337206,-34.4312738
-Mainland Beach 44,1411,Southland Region,Unnamed,0.006764069,167.6427295,-47.21195682
-Mainland Beach 69,1436,Waikato Region,Unnamed,1.089015152,175.8625014,-36.87548225
-Mainland Beach 70,1437,Northland Region,Ocean Beach,0.013528139,174.578853,-35.81785382
-Mainland Beach 75,1444,Northland Region,Wairaka Beach,0.466720779,173.388053,-34.80824802
-Mainland Island 7,1467,Bay of Plenty Region,Unnamed,0.162337662,176.427146,-37.62318093
-Mainland Island 67,1468,Waikato Region,Unnamed,0.067640693,176.0817094,-36.9588859
-Mainland Island 10,1471,Waikato Region,Unnamed,0.128517316,175.7935763,-36.69853323
-Mainland Island 11,1472,Waikato Region,Unnamed,0.18262987,175.8746827,-36.64255099
-Mainland Island 13,1473,Northland Region,Hen Island,0.027056277,174.7321628,-35.95073586
-Mainland Island 12,1474,Auckland Region,Unnamed,0.169101732,175.1519787,-35.93326371
-Mainland Island 82,1475,Auckland Region,Unnamed,0.250270563,175.1045345,-35.91000549
-Mainland Island 14,1476,Northland Region,Marotere Islands (Chickens),0.033820346,174.7329046,-35.88870087
-Mainland Island 84,1477,Northland Region,Pareparea Bay Islands,0.493777056,174.4612136,-35.47498265
-Mainland Island 54,1546,Gisborne Region,Unnamed,0.020292208,178.3448796,-38.37697426
-Mainland Island 62,1555,Bay of Plenty Region,Unnamed,0.006764069,176.0920915,-37.54490681
-Mainland Island 63,1556,Waikato Region,Unnamed,0.960497835,175.9197145,-37.08604227
-Mainland Island 72,1564,Auckland Region,Unnamed,0.439664502,175.1703413,-36.72299274
-Mainland Island 73,1565,Waikato Region,Unnamed,0.013528139,175.9231707,-36.62385063
-Mainland Island 74,1566,Waikato Region,Unnamed,0.040584416,175.5515877,-36.59267813
-Mainland Island 75,1567,Auckland Region,Unnamed,0.317911255,174.8898796,-36.60081384
-Mainland Island 76,1568,Waikato Region,Unnamed,0.074404762,175.3662661,-36.4419488
-Mainland Island 77,1569,Waikato Region,Unnamed,0.006764069,175.7716354,-36.43655058
-Mainland Island 78,1570,Auckland Region,Unnamed,0.148809524,175.0796397,-36.18520786
-Mainland Island 79,1571,Auckland Region,Rakitu Island,0.588474026,175.4705181,-36.13340149
-Mainland Island 80,1572,Auckland Region,Aiguilles Island,0.135281385,175.4070954,-36.03903241
-Mainland Island 81,1573,Northland Region,Sail Rock,0.006764069,174.6976664,-36.00200544
-Mainland Island 83,1574,Northland Region,Bream Head Islands,0.006764069,174.5863753,-35.82879572
-Mainland Island 85,1575,Northland Region,Cavalli Islands,0.040584416,173.9821463,-34.99406332
-Mainland Island 90,1581,Northland Region,Pananehe Island,0.006764069,172.8567739,-34.42073321
-Mainland Mussels 1,1595,Hawke's Bay Region,Unnamed,0.006764069,177.8339997,-39.15045682
-Mainland Oysters 1,1596,Auckland Region,Unnamed,0.859036797,174.7276899,-36.49169211
-Mainland Oysters 16,1597,Auckland Region,Unnamed,1.880411255,175.1699538,-36.80293957
-Mainland Oysters 17,1599,Auckland Region,Unnamed,0.209686147,175.1250922,-36.83929055
-Mainland Aquaculture 8,1601,Northland Region,Parengarenga Harbour Aquaculture,0.020292208,172.942373,-34.50431967
-Mainland Oysters 5,1603,Waikato Region,Unnamed,0.121753247,175.4346186,-36.81816769
-Mainland Oysters 6,1604,Waikato Region,Unnamed,0.0879329,175.4885472,-36.76035763
-Mainland Oysters 7,1606,Northland Region,Whangaroa Oysters Sites,0.324675325,173.7706299,-35.00049942
-Mainland Oysters 18,1607,Auckland Region,Unnamed,0.412608225,174.7452518,-36.41575414
-Mainland Mussels 3,1608,Auckland Region,Unnamed,0.351731602,175.066164,-36.83727495
-Mainland Mussels 15,1623,Marlborough Region,Unnamed,0.006764069,174.0654145,-41.2301478
-Mainland Mussels 29,1625,Auckland Region,Port Fitzroy/Abercrombie Mussel Sites,1.210768398,175.3419631,-36.1619629
-Mainland Mussels 18,1627,Waikato Region,Unnamed,0.284090909,175.4369037,-36.74994991
-Mainland Mussels 19,1628,Waikato Region,Unnamed,0.060876623,175.6247887,-36.66511713
-Mainland Mussels 20,1629,Marlborough Region,Unnamed,1.143127706,174.233087,-41.24473586
-Mainland Mussels 21,1630,Southland Region,Unnamed,0.006764069,168.1206494,-46.95293013
-Mainland Mussels 22,1632,Waikato Region,Unnamed,0.189393939,175.4674524,-36.51428026
-Mainland Salmon 5,1639,Marlborough Region,Unnamed,0.006764069,173.9595153,-40.98082376
-Mainland Mussels 58,1640,Auckland Region,Unnamed,0.033820346,174.7452518,-36.39653879
-Mainland Mussels 28,1641,Marlborough Region,Unnamed,0.033820346,174.2027151,-41.05186666
-Mainland Mussels 36,1644,Waikato Region,Unnamed,0.054112554,175.4156267,-36.9193918
-Mainland Oysters 9,1645,Waikato Region,Unnamed,0.033820346,175.6406363,-36.70426233
-Mainland Mussels 59,1647,Marlborough Region,Unnamed,0.006764069,174.1985127,-40.99508155
-Mainland Oysters 10,1649,Northland Region,Parengarenga Harbour Oyster Sites,0.006764069,172.9631736,-34.53600193
-Mainland Mussels 37,1655,Waikato Region,Unnamed,0.0879329,175.4170709,-36.83478105
-Mainland Mussels 41,1661,Wellington Region,Unnamed,0.006764069,174.8403369,-41.35114512
-Mainland Oysters 12,1663,Northland Region,Taronui Bay Oyster Sites,0.142045455,174.0151343,-35.11777579
-Mainland Oysters 14,1666,Northland Region,Rangaunu Harbour Oyster Sites,0.020292208,173.3179956,-34.90895024
-Mainland Mussels 45,1669,Northland Region,Houhora Bay Mussel Sites,0.568181818,173.167434,-34.80671724
-Mainland Salmon 12,1676,Auckland Region,Unnamed,1.420454545,174.8178135,-36.41716521
-Mainland Oysters 19,1677,Waikato Region,Unnamed,0.108225108,175.6961025,-36.82228676
-Mainland Mussels 48,1678,Waikato Region,Unnamed,0.196158009,175.3993694,-36.69642505
-Mainland Aquaculture 3,1679,Northland Region,Inner North West Bay of Islands Aquaculture,0.683170996,174.091542,-35.22973932
-Mainland Oysters 20,1682,Northland Region,?taipango / Henderson Bay Oyster Sites,0.432900433,173.1525769,-34.76543741
-Mainland Oysters 21,1683,Northland Region,Inner Bay of Islands' Oyster Sites,4.843073593,174.1287836,-35.2517752
-Mainland Oysters 22,1684,Northland Region,Outer Bay of Islands' Oyster Sites,1.582792208,174.222284,-35.22000934
-Mainland Oysters 23,1685,Northland Region,Whangarei Harbour Oyster Sites,0.64258658,174.4599966,-35.81785382
-Mainland Aquaculture 4,1689,Waikato Region,Unnamed,0.128517316,175.4513903,-36.73294846
-Mainland Salmon 8,1690,Marlborough Region,Unnamed,0.006764069,174.1747414,-41.3543019
-Mainland Mussels 54,1694,Auckland Region,Unnamed,0.588474026,175.1696467,-36.80611424
-Mainland Mussels 56,1695,Northland Region,Whangaroa Bay Mussel Sites,0.006764069,173.7647074,-34.96163245
-Mainland Mussels 57,1697,Auckland Region,Unnamed,0.020292208,175.3298887,-36.91937955
-Mainland Aquaculture 6,1698,Marlborough Region,Unnamed,0.006764069,173.8894862,-41.09402
-Waiaka Bay,1741,Gisborne Region,Unnamed,1.021374459,178.1583749,-37.54299042
-Homunga Bay,1742,Waikato Region,Unnamed,0.020292208,175.9455817,-37.36152647
+name,nID,Region,Cmmn_nm,lon,lat
+Mainland Marina 1,1053,Northland Region,Whangaroa Marina,173.7419182,-35.06394306
+Mainland Marina 2,1054,Northland Region,Bay of Islands' Marinas,174.1034276,-35.24046385
+Mainland Marina 3,1055,Northland Region,Tutukaka Marina,174.5550817,-35.60459378
+Mainland Marina 4,1056,Northland Region,Whangarei Marinas,174.4165507,-35.81754382
+Mainland Marina 5,1057,Auckland Region,Unnamed,174.735756,-36.39353753
+Mainland Marina 6,1058,Auckland Region,Unnamed,174.7883551,-36.62095278
+Mainland Marina 7,1059,Auckland Region,Unnamed,174.7690231,-36.74168089
+Mainland Marina 8,1060,Auckland Region,Unnamed,174.673938,-36.81816769
+Mainland Marina 9,1061,Auckland Region,Unnamed,174.7806808,-36.84457157
+Mainland Marina 10,1062,Auckland Region,Unnamed,174.9243674,-36.88052382
+Mainland Marina 11,1063,Waikato Region,Unnamed,175.7063407,-36.82209969
+Mainland Marina 12,1064,Waikato Region,Unnamed,175.8601196,-37.00047603
+Mainland Marina 13,1065,Waikato Region,Unnamed,175.8665103,-37.19703585
+Mainland Marina 14,1066,Bay of Plenty Region,Unnamed,176.1807249,-37.667248
+Mainland Marina 15,1067,Gisborne Region,Unnamed,178.0256868,-38.68653852
+Mainland Marina 16,1068,Hawke's Bay Region,Unnamed,176.8923432,-39.48322706
+Mainland Marina 18,1070,Wellington Region,Unnamed,174.8261267,-41.34827185
+Mainland Marina 19,1071,Marlborough Region,Unnamed,174.0202282,-41.26468043
+Mainland Marina 20,1072,Marlborough Region,Unnamed,173.7785515,-41.27600706
+Mainland Marina 21,1073,Nelson Region,Unnamed,173.2811255,-41.25983531
+Mainland Marina 24,1076,Canterbury Region,Unnamed,172.7009228,-43.57161984
+Mainland Mooring 7,1087,Bay of Plenty Region,Unnamed,175.9785278,-37.48899576
+Mainland Mooring 8,1088,Bay of Plenty Region,Unnamed,176.0536736,-37.63516661
+Mainland Mooring 9,1089,Bay of Plenty Region,Unnamed,176.1834135,-37.66859873
+Mainland Mooring 12,1092,Taranaki Region,Unnamed,174.0456748,-39.05704043
+Mainland Mooring 15,1095,Southland Region,Unnamed,167.8981267,-44.64329182
+Mainland Mooring 16,1096,Southland Region,Unnamed,166.983933,-45.13213894
+Mainland Mooring 21,1101,Wellington Region,Unnamed,174.8476577,-41.35326034
+Mainland Mooring 25,1105,Waikato Region,Unnamed,175.434167,-36.82463204
+Mainland Mooring 26,1106,Waikato Region,Unnamed,175.4757936,-36.7642383
+Mainland Mooring 27,1107,Waikato Region,Unnamed,175.465709,-36.52258606
+Mainland Mooring 28,1108,Waikato Region,Great Mercury Island Moorings,175.7728926,-36.60053899
+Mainland Mooring 29,1109,Waikato Region,Unnamed,175.8149589,-36.76080981
+Mainland Mooring 30,1110,Waikato Region,Unnamed,175.7147573,-36.82193521
+Mainland Mooring 31,1111,Waikato Region,Unnamed,175.854999,-37.00717305
+Mainland Mooring 32,1112,Waikato Region,Unnamed,175.8764112,-37.19695687
+Mainland Mooring 34,1114,Northland Region,Houhora Moorings,173.1525769,-34.84282629
+Mainland Mooring 35,1115,Northland Region,Inner Bay of Islands' Moorings,174.1158118,-35.24542248
+Mainland Mooring 36,1116,Northland Region,Outer Bay of Islands' Moorings,174.2344349,-35.23128279
+Mainland Mooring 37,1117,Northland Region,Te Puna Inlet Moorings,174.0281519,-35.11777579
+Mainland Mooring 39,1119,Auckland Region,Unnamed,174.6263955,-36.08844195
+Mainland Mooring 40,1120,Northland Region,Mangonui Moorings,173.5128284,-34.9897998
+Mainland Mooring 41,1121,Northland Region,Tutukaka Moorings,174.5511198,-35.62076887
+Mainland Mooring 42,1122,Northland Region,Outer Whangarei Harbour Moorings,174.5217148,-35.83060401
+Mainland Mooring 43,1123,Northland Region,Inner/Central Whangarei Harbour Moorings,174.4161348,-35.80984226
+Mainland Mooring 44,1124,Northland Region,Whangaroa Moorings,173.767753,-35.00289248
+Mainland Mooring 45,1125,Northland Region,Motukawaiti Island & Putataua Bay Moorings,173.9259023,-35.02296557
+Mainland Mooring 46,1126,Northland Region,Bland Bay Moorings,174.3886828,-35.39075876
+Mainland Mooring 47,1127,Northland Region,Whangaruru Moorings,174.3411403,-35.3128583
+Mainland Mooring 48,1128,Northland Region,Rangaunu Pile Moorings,173.2714332,-34.91396238
+Mainland Mooring 49,1129,Auckland Region,Unnamed,174.80468,-36.30038057
+Mainland Mooring 50,1130,Auckland Region,Tryphena Harbour Moorings,175.4843148,-36.32646577
+Mainland Mooring 51,1131,Auckland Region,Blind Bay and Whangaparapara Harbour Moorings,175.3949998,-36.26189717
+Mainland Mooring 52,1132,Auckland Region,Port Fitzroy/Abercrombie Moorings,175.345222,-36.16394119
+Mainland Mooring 53,1133,Auckland Region,Unnamed,174.7427249,-36.40368021
+Mainland Mooring 54,1134,Auckland Region,Unnamed,174.7262661,-36.49824124
+Mainland Mooring 55,1135,Auckland Region,Unnamed,174.7458767,-36.63214297
+Mainland Mooring 57,1137,Auckland Region,Unnamed,175.1695681,-36.93554243
+Mainland Mooring 58,1138,Auckland Region,Unnamed,174.9849346,-36.75476649
+Mainland Mooring 59,1139,Auckland Region,Unnamed,175.0339161,-36.82694775
+Mainland Mooring 60,1140,Auckland Region,Unnamed,175.0542783,-36.77993391
+Mainland Mooring 61,1141,Auckland Region,Unnamed,175.1652109,-36.84364404
+Mainland Mooring 62,1142,Auckland Region,Unnamed,174.9063578,-36.88621789
+Mainland Mooring 63,1143,Auckland Region,Unnamed,174.6975767,-36.83036881
+Mainland Mooring 64,1144,Auckland Region,Unnamed,174.79914,-36.83358315
+Mainland Mooring 65,1145,Auckland Region,Unnamed,174.8290975,-36.42373967
+Mainland Mooring 70,1150,Marlborough Region,Unnamed,173.8027296,-40.86191072
+Mainland Mooring 71,1151,Marlborough Region,Unnamed,173.8817476,-40.93293454
+Mainland Mooring 82,1162,Marlborough Region,Unnamed,174.2187235,-41.18970751
+Mainland Mooring 85,1165,Marlborough Region,Unnamed,174.0064001,-41.25101231
+Mainland Mooring 98,1178,Tasman Region,Unnamed,173.0812631,-40.94102737
+Mainland MR 2,1185,Bay of Plenty Region,Unnamed,176.2608625,-37.26126482
+Mainland MR 3,1186,Auckland Region,Unnamed,174.8403369,-36.35809371
+Mainland MR 4,1187,Northland Region,Poor Knights Islands Marine Reserve,174.7214806,-35.48802768
+Mainland MR 5,1188,Southland Region,Unnamed,168.109126,-46.94073307
+Mainland MR 7,1191,Southland Region,Unnamed,167.8913258,-44.63457861
+Mainland MR 9,1193,Southland Region,Unnamed,167.0370248,-45.36280186
+Mainland MR 10,1194,Southland Region,Unnamed,166.8294197,-45.74524508
+Mainland MR 18,1202,Marlborough Region,Unnamed,174.2875294,-41.11421859
+Mainland MR 19,1203,Northland Region,Whangarei Harbour Marine Reserve,174.3933379,-35.793184
+Mainland MR 22,1206,Auckland Region,Unnamed,175.1322949,-36.84831226
+Mainland MR 23,1207,Waikato Region,Unnamed,175.7916131,-36.81974085
+Mainland MR 37,1221,Auckland Region,Unnamed,174.7947224,-36.26481851
+Mainland MR 38,1222,Auckland Region,Unnamed,174.6789778,-36.8681218
+Mainland MR 39,1223,Auckland Region,Unnamed,174.7452518,-36.66511713
+Mainland CHS 2,1226,Northland Region,Tapotupotu Bay,172.715136,-34.43280368
+Mainland CHS 3,1227,Northland Region,Waitangi Stream,172.9620344,-34.42625992
+Mainland CHS 4,1228,Northland Region,Matai Bay,173.4378321,-34.8242665
+Mainland CHS 5,1229,Northland Region,Waimahana Bay,173.6252551,-34.94874268
+Mainland CHS 7,1231,Northland Region,Ngunguru River & Taiharuru Bay,174.578853,-35.74037133
+Mainland CHS 8,1232,Northland Region,Bream Bay,174.4837679,-35.97259011
+Mainland CHS 11,1235,Waikato Region,Unnamed,175.4108473,-36.58847647
+Mainland CHS 12,1236,Waikato Region,Unnamed,175.5534749,-36.58847647
+Mainland CHS 13,1237,Waikato Region,Unnamed,175.8876789,-37.11066046
+Mainland CHS 20,1244,Gisborne Region,Unnamed,178.3465989,-37.59770459
+Mainland CHS 21,1245,Gisborne Region,Unnamed,178.3052179,-38.37488026
+Mainland CHS 22,1246,Gisborne Region,Unnamed,177.9473952,-38.78323363
+Mainland CHS 63,1287,Auckland Region,Rangiwhakaea Bay,175.4310681,-36.10812881
+Mainland CHS 64,1288,Auckland Region,Awana Bay,175.477856,-36.2195626
+Mainland Beach 10,1376,Waikato Region,Unnamed,175.7914444,-36.69344444
+Mainland Beach 24,1390,Auckland Region,Kaitoke Beach,175.4841941,-36.24546418
+Mainland Beach 29,1395,Auckland Region,Overtons Beach,175.4821611,-36.15459448
+Mainland Beach 34,1400,Northland Region,Tokerau Beach,173.3902896,-34.90263937
+Mainland Beach 35,1401,Northland Region,Waikuku Beach,173.0337206,-34.4312738
+Mainland Beach 44,1411,Southland Region,Unnamed,167.6427295,-47.21195682
+Mainland Beach 69,1436,Waikato Region,Unnamed,175.8625014,-36.87548225
+Mainland Beach 70,1437,Northland Region,Ocean Beach,174.578853,-35.81785382
+Mainland Beach 75,1444,Northland Region,Wairaka Beach,173.388053,-34.80824802
+Mainland Island 7,1467,Bay of Plenty Region,Unnamed,176.427146,-37.62318093
+Mainland Island 67,1468,Waikato Region,Unnamed,176.0817094,-36.9588859
+Mainland Island 10,1471,Waikato Region,Unnamed,175.7935763,-36.69853323
+Mainland Island 11,1472,Waikato Region,Unnamed,175.8746827,-36.64255099
+Mainland Island 13,1473,Northland Region,Hen Island,174.7321628,-35.95073586
+Mainland Island 12,1474,Auckland Region,Unnamed,175.1519787,-35.93326371
+Mainland Island 82,1475,Auckland Region,Unnamed,175.1045345,-35.91000549
+Mainland Island 14,1476,Northland Region,Marotere Islands (Chickens),174.7329046,-35.88870087
+Mainland Island 84,1477,Northland Region,Pareparea Bay Islands,174.4612136,-35.47498265
+Mainland Island 54,1546,Gisborne Region,Unnamed,178.3448796,-38.37697426
+Mainland Island 62,1555,Bay of Plenty Region,Unnamed,176.0920915,-37.54490681
+Mainland Island 63,1556,Waikato Region,Unnamed,175.9197145,-37.08604227
+Mainland Island 72,1564,Auckland Region,Unnamed,175.1703413,-36.72299274
+Mainland Island 73,1565,Waikato Region,Unnamed,175.9231707,-36.62385063
+Mainland Island 74,1566,Waikato Region,Unnamed,175.5515877,-36.59267813
+Mainland Island 75,1567,Auckland Region,Unnamed,174.8898796,-36.60081384
+Mainland Island 76,1568,Waikato Region,Unnamed,175.3662661,-36.4419488
+Mainland Island 77,1569,Waikato Region,Unnamed,175.7716354,-36.43655058
+Mainland Island 78,1570,Auckland Region,Unnamed,175.0796397,-36.18520786
+Mainland Island 79,1571,Auckland Region,Rakitu Island,175.4705181,-36.13340149
+Mainland Island 80,1572,Auckland Region,Aiguilles Island,175.4070954,-36.03903241
+Mainland Island 81,1573,Northland Region,Sail Rock,174.6976664,-36.00200544
+Mainland Island 83,1574,Northland Region,Bream Head Islands,174.5863753,-35.82879572
+Mainland Island 85,1575,Northland Region,Cavalli Islands,173.9821463,-34.99406332
+Mainland Island 90,1581,Northland Region,Pananehe Island,172.8567739,-34.42073321
+Mainland Mussels 1,1595,Hawke's Bay Region,Unnamed,177.8339997,-39.15045682
+Mainland Oysters 1,1596,Auckland Region,Unnamed,174.7276899,-36.49169211
+Mainland Oysters 16,1597,Auckland Region,Unnamed,175.1699538,-36.80293957
+Mainland Oysters 17,1599,Auckland Region,Unnamed,175.1250922,-36.83929055
+Mainland Aquaculture 8,1601,Northland Region,Parengarenga Harbour Aquaculture,172.942373,-34.50431967
+Mainland Oysters 5,1603,Waikato Region,Unnamed,175.4346186,-36.81816769
+Mainland Oysters 6,1604,Waikato Region,Unnamed,175.4885472,-36.76035763
+Mainland Oysters 7,1606,Northland Region,Whangaroa Oysters Sites,173.7706299,-35.00049942
+Mainland Oysters 18,1607,Auckland Region,Unnamed,174.7452518,-36.41575414
+Mainland Mussels 3,1608,Auckland Region,Unnamed,175.066164,-36.83727495
+Mainland Mussels 15,1623,Marlborough Region,Unnamed,174.0654145,-41.2301478
+Mainland Mussels 29,1625,Auckland Region,Port Fitzroy/Abercrombie Mussel Sites,175.3419631,-36.1619629
+Mainland Mussels 18,1627,Waikato Region,Unnamed,175.4369037,-36.74994991
+Mainland Mussels 19,1628,Waikato Region,Unnamed,175.6247887,-36.66511713
+Mainland Mussels 20,1629,Marlborough Region,Unnamed,174.233087,-41.24473586
+Mainland Mussels 21,1630,Southland Region,Unnamed,168.1206494,-46.95293013
+Mainland Mussels 22,1632,Waikato Region,Unnamed,175.4674524,-36.51428026
+Mainland Salmon 5,1639,Marlborough Region,Unnamed,173.9595153,-40.98082376
+Mainland Mussels 58,1640,Auckland Region,Unnamed,174.7452518,-36.39653879
+Mainland Mussels 28,1641,Marlborough Region,Unnamed,174.2027151,-41.05186666
+Mainland Mussels 36,1644,Waikato Region,Unnamed,175.4156267,-36.9193918
+Mainland Oysters 9,1645,Waikato Region,Unnamed,175.6406363,-36.70426233
+Mainland Mussels 59,1647,Marlborough Region,Unnamed,174.1985127,-40.99508155
+Mainland Oysters 10,1649,Northland Region,Parengarenga Harbour Oyster Sites,172.9631736,-34.53600193
+Mainland Mussels 37,1655,Waikato Region,Unnamed,175.4170709,-36.83478105
+Mainland Mussels 41,1661,Wellington Region,Unnamed,174.8403369,-41.35114512
+Mainland Oysters 12,1663,Northland Region,Taronui Bay Oyster Sites,174.0151343,-35.11777579
+Mainland Oysters 14,1666,Northland Region,Rangaunu Harbour Oyster Sites,173.3179956,-34.90895024
+Mainland Mussels 45,1669,Northland Region,Houhora Bay Mussel Sites,173.167434,-34.80671724
+Mainland Salmon 12,1676,Auckland Region,Unnamed,174.8178135,-36.41716521
+Mainland Oysters 19,1677,Waikato Region,Unnamed,175.6961025,-36.82228676
+Mainland Mussels 48,1678,Waikato Region,Unnamed,175.3993694,-36.69642505
+Mainland Aquaculture 3,1679,Northland Region,Inner North West Bay of Islands Aquaculture,174.091542,-35.22973932
+Mainland Oysters 20,1682,Northland Region,?taipango / Henderson Bay Oyster Sites,173.1525769,-34.76543741
+Mainland Oysters 21,1683,Northland Region,Inner Bay of Islands' Oyster Sites,174.1287836,-35.2517752
+Mainland Oysters 22,1684,Northland Region,Outer Bay of Islands' Oyster Sites,174.222284,-35.22000934
+Mainland Oysters 23,1685,Northland Region,Whangarei Harbour Oyster Sites,174.4599966,-35.81785382
+Mainland Aquaculture 4,1689,Waikato Region,Unnamed,175.4513903,-36.73294846
+Mainland Salmon 8,1690,Marlborough Region,Unnamed,174.1747414,-41.3543019
+Mainland Mussels 54,1694,Auckland Region,Unnamed,175.1696467,-36.80611424
+Mainland Mussels 56,1695,Northland Region,Whangaroa Bay Mussel Sites,173.7647074,-34.96163245
+Mainland Mussels 57,1697,Auckland Region,Unnamed,175.3298887,-36.91937955
+Mainland Aquaculture 6,1698,Marlborough Region,Unnamed,173.8894862,-41.09402
+Waiaka Bay,1741,Gisborne Region,Unnamed,178.1583749,-37.54299042
+Homunga Bay,1742,Waikato Region,Unnamed,175.9455817,-37.36152647

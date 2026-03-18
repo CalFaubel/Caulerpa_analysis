@@ -73,8 +73,6 @@ V(AIS_down.g)$wei_degree     <- V(AIS_down.g)$degree * ((V(AIS_down.g)$strength 
 V(AIS_down.g)$wei_indegree   <- V(AIS_down.g)$indegree * ((V(AIS_down.g)$in_strength / V(AIS_down.g)$indegree)^0.5)
 V(AIS_down.g)$wei_outdegree  <- V(AIS_down.g)$outdegree * ((V(AIS_down.g)$out_strength / V(AIS_down.g)$outdegree)^0.5)
 
-# --- Optional: check results ---
-summary(AIS_down.g)
 ```
 
 ### 3.1.2 Downstream_Survey
@@ -110,9 +108,6 @@ V(Survey_down.g)$out_strength <- strength(Survey_down.g, vids = V(Survey_down.g)
 V(Survey_down.g)$wei_degree     <- V(Survey_down.g)$degree * ((V(Survey_down.g)$strength / V(Survey_down.g)$degree)^0.5)
 V(Survey_down.g)$wei_indegree   <- V(Survey_down.g)$indegree * ((V(Survey_down.g)$in_strength / V(Survey_down.g)$indegree)^0.5)
 V(Survey_down.g)$wei_outdegree  <- V(Survey_down.g)$outdegree * ((V(Survey_down.g)$out_strength / V(Survey_down.g)$outdegree)^0.5)
-
-# --- Optional: check results ---
-head(as_data_frame(Survey_down.g, what = "vertices"))
 ```
 
 ### 3.1.3 Reachability_AIS
@@ -148,8 +143,6 @@ V(AIS_reach.g)$wei_degree     <- V(AIS_reach.g)$degree * ((V(AIS_reach.g)$streng
 V(AIS_reach.g)$wei_indegree   <- V(AIS_reach.g)$indegree * ((V(AIS_reach.g)$in_strength / V(AIS_reach.g)$indegree)^0.5)
 V(AIS_reach.g)$wei_outdegree  <- V(AIS_reach.g)$outdegree * ((V(AIS_reach.g)$out_strength / V(AIS_reach.g)$outdegree)^0.5)
 
-# --- Optional: check results ---
-head(as_data_frame(AIS_reach.g, what = "vertices"))
 ```
 
 ### 3.1.4 Reachability_Survey
@@ -185,8 +178,6 @@ V(Survey_reach.g)$wei_degree     <- V(Survey_reach.g)$degree * ((V(Survey_reach.
 V(Survey_reach.g)$wei_indegree   <- V(Survey_reach.g)$indegree * ((V(Survey_reach.g)$in_strength / V(Survey_reach.g)$indegree)^0.5)
 V(Survey_reach.g)$wei_outdegree  <- V(Survey_reach.g)$outdegree * ((V(Survey_reach.g)$out_strength / V(Survey_reach.g)$outdegree)^0.5)
 
-# --- Optional: check results ---
-head(as_data_frame(Survey_reach.g, what = "vertices"))
 ```
 
 # 4 Exporting to shp 

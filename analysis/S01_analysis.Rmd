@@ -1,0 +1,311 @@
+---
+  title: "S01_analysis"
+output: html_document
+date: "2026-03-13"
+editor_options:
+  chunk_output_type: console
+---
+  
+# 1. Load packages 
+```{r}
+library(sf)
+library(tidyverse)
+library(dplyr)
+library(igraph)
+library(readr)
+```
+
+
+# 2. Load data 
+```{r}
+Downstream_AIS_edge.df <- read_csv("data/Downstream_AIS_edge.csv")
+
+Downstream_AIS_nodes.df <- read_csv("data/Downstream_AIS_nodes.csv")
+
+Downstream_survey_edge.df <- read_csv("data/Downstream_survey_edge.csv")
+
+Downstream_survey_nodes.df <- read_csv("data/Downstream_survey_nodes.csv")
+
+Reachability_AIS_edge.df <- read_csv("data/Reachability_AIS_edge.csv")
+
+Reachability_AIS_nodes.df <- read_csv("data/Reachability_AIS_nodes.csv")
+
+Reachability_survey_edge.df <- read_csv("data/Reachability_survey_edge.csv")
+
+Reachability_survey_nodes.df <- read_csv("data/Reachability_survey_nodes.csv")
+```
+
+
+# 3. create igraph object and calcualte metrics 
+
+## 3.1 Create I graph object 
+adding in both the edge list and the node dataset automatically applies all of the node attributes to the igraph object 
+
+### 3.1.1 Downstream_AIS
+```{r}
+head(Downstream_AIS_edge.df)
+
+AIS_down.g <- graph_from_data_frame(Downstream_AIS_edge.df, Downstream_AIS_nodes.df , directed = TRUE)
+
+E(AIS_down.g)$weight    <- E(AIS_down.g)$vessels
+
+```
+
+#### network metrics 
+```{r}
+# --- If you want to use weight-based distances ---
+## note that this is not used within this analysis but for calculating metrics such as closeness centrality or betweenness centrality you will need
+E(AIS_down.g)$strength <- E(AIS_down.g)$weight
+E(AIS_down.g)$distance <- mean(E(AIS_down.g)$weight) / E(AIS_down.g)$weight  # define your distance as in your function
+
+# --- Degree centrality ---
+V(AIS_down.g)$degree    <- degree(AIS_down.g, v = V(AIS_down.g), mode = "total")
+V(AIS_down.g)$indegree  <- degree(AIS_down.g, v = V(AIS_down.g), mode = "in")
+V(AIS_down.g)$outdegree <- degree(AIS_down.g, v = V(AIS_down.g), mode = "out")
+
+# --- Strength
+V(AIS_down.g)$strength     <- strength(AIS_down.g, vids = V(AIS_down.g), mode = "all", loops = TRUE)
+V(AIS_down.g)$in_strength  <- strength(AIS_down.g, vids = V(AIS_down.g), mode = "in",  loops = TRUE)
+V(AIS_down.g)$out_strength <- strength(AIS_down.g, vids = V(AIS_down.g), mode = "out", loops = TRUE)
+
+# --- Weighted degree measures ---
+V(AIS_down.g)$wei_degree     <- V(AIS_down.g)$degree * ((V(AIS_down.g)$strength / V(AIS_down.g)$degree)^0.5)
+V(AIS_down.g)$wei_indegree   <- V(AIS_down.g)$indegree * ((V(AIS_down.g)$in_strength / V(AIS_down.g)$indegree)^0.5)
+V(AIS_down.g)$wei_outdegree  <- V(AIS_down.g)$outdegree * ((V(AIS_down.g)$out_strength / V(AIS_down.g)$outdegree)^0.5)
+
+# --- Optional: check results ---
+summary(AIS_down.g)
+```
+
+### 3.1.2 Downstream_Survey
+```{r}
+head(Downstream_survey_edge.df)
+head(Downstream_survey_nodes.df)
+
+Survey_down.g <- graph_from_data_frame(Downstream_survey_edge.df, Downstream_survey_nodes.df , directed = TRUE)
+
+E(Survey_down.g)$weight    <- E(Survey_down.g)$vessels
+
+summary(Survey_down.g)
+```
+
+#### network metrics 
+```{r}
+# --- If you want to use weight-based distances ---
+## note that this is not used within this analysis but for calculating metrics such as closeness centrality or betweenness centrality you will need
+E(Survey_down.g)$strength <- E(Survey_down.g)$weight
+E(Survey_down.g)$distance <- mean(E(Survey_down.g)$weight) / E(Survey_down.g)$weight  # define your distance as in your function
+
+# --- Degree centrality ---
+V(Survey_down.g)$degree    <- degree(Survey_down.g, v = V(Survey_down.g), mode = "total")
+V(Survey_down.g)$indegree  <- degree(Survey_down.g, v = V(Survey_down.g), mode = "in")
+V(Survey_down.g)$outdegree <- degree(Survey_down.g, v = V(Survey_down.g), mode = "out")
+
+# --- Strength 
+V(Survey_down.g)$strength     <- strength(Survey_down.g, vids = V(Survey_down.g), mode = "all", loops = TRUE)
+V(Survey_down.g)$in_strength  <- strength(Survey_down.g, vids = V(Survey_down.g), mode = "in",  loops = TRUE)
+V(Survey_down.g)$out_strength <- strength(Survey_down.g, vids = V(Survey_down.g), mode = "out", loops = TRUE)
+
+# --- Weighted degree measures ---
+V(Survey_down.g)$wei_degree     <- V(Survey_down.g)$degree * ((V(Survey_down.g)$strength / V(Survey_down.g)$degree)^0.5)
+V(Survey_down.g)$wei_indegree   <- V(Survey_down.g)$indegree * ((V(Survey_down.g)$in_strength / V(Survey_down.g)$indegree)^0.5)
+V(Survey_down.g)$wei_outdegree  <- V(Survey_down.g)$outdegree * ((V(Survey_down.g)$out_strength / V(Survey_down.g)$outdegree)^0.5)
+
+# --- Optional: check results ---
+head(as_data_frame(Survey_down.g, what = "vertices"))
+```
+
+### 3.1.3 Reachability_AIS
+```{r}
+head(Reachability_AIS_edge.df)
+
+AIS_reach.g <- graph_from_data_frame(Reachability_AIS_edge.df, Reachability_AIS_nodes.df , directed = TRUE)
+
+E(AIS_reach.g)$weight  <- E(AIS_reach.g)$vessels
+
+summary(AIS_reach.g)
+```
+
+#### network metrics 
+```{r}
+# --- If you want to use weight-based distances ---
+## note that this is not used within this analysis but for calculating metrics such as closeness centrality or betweenness centrality you will need
+E(AIS_reach.g)$strength <- E(AIS_reach.g)$weight
+E(AIS_reach.g)$distance <- mean(E(AIS_reach.g)$weight) / E(AIS_reach.g)$weight  # define your distance as in your function
+
+# --- Degree centrality ---
+V(AIS_reach.g)$degree    <- degree(AIS_reach.g, v = V(AIS_reach.g), mode = "total")
+V(AIS_reach.g)$indegree  <- degree(AIS_reach.g, v = V(AIS_reach.g), mode = "in")
+V(AIS_reach.g)$outdegree <- degree(AIS_reach.g, v = V(AIS_reach.g), mode = "out")
+
+# --- Strength 
+V(AIS_reach.g)$strength     <- strength(AIS_reach.g, vids = V(AIS_reach.g), mode = "all", loops = TRUE)
+V(AIS_reach.g)$in_strength  <- strength(AIS_reach.g, vids = V(AIS_reach.g), mode = "in",  loops = TRUE)
+V(AIS_reach.g)$out_strength <- strength(AIS_reach.g, vids = V(AIS_reach.g), mode = "out", loops = TRUE)
+
+# --- Weighted degree measures ---
+V(AIS_reach.g)$wei_degree     <- V(AIS_reach.g)$degree * ((V(AIS_reach.g)$strength / V(AIS_reach.g)$degree)^0.5)
+V(AIS_reach.g)$wei_indegree   <- V(AIS_reach.g)$indegree * ((V(AIS_reach.g)$in_strength / V(AIS_reach.g)$indegree)^0.5)
+V(AIS_reach.g)$wei_outdegree  <- V(AIS_reach.g)$outdegree * ((V(AIS_reach.g)$out_strength / V(AIS_reach.g)$outdegree)^0.5)
+
+# --- Optional: check results ---
+head(as_data_frame(AIS_reach.g, what = "vertices"))
+```
+
+### 3.1.4 Reachability_Survey
+```{r}
+head(Reachability_survey_edge.df)
+
+Survey_reach.g <- graph_from_data_frame(Reachability_survey_edge.df, Reachability_survey_nodes.df , directed = TRUE)
+
+E(Survey_reach.g)$weight  <- E(Survey_reach.g)$vessels
+
+summary(Survey_reach.g)
+```
+
+#### network metrics 
+```{r}
+# --- If you want to use weight-based distances ---
+## note that this is not used within this analysis but for calculating metrics such as closeness centrality or betweenness centrality you will need
+E(Survey_reach.g)$strength <- E(Survey_reach.g)$weight
+E(Survey_reach.g)$distance <- mean(E(Survey_reach.g)$weight) / E(Survey_reach.g)$weight  # define your distance as in your function
+
+# --- Degree centrality ---
+V(Survey_reach.g)$degree    <- degree(Survey_reach.g, v = V(Survey_reach.g), mode = "total")
+V(Survey_reach.g)$indegree  <- degree(Survey_reach.g, v = V(Survey_reach.g), mode = "in")
+V(Survey_reach.g)$outdegree <- degree(Survey_reach.g, v = V(Survey_reach.g), mode = "out")
+
+# --- Strength 
+V(Survey_reach.g)$strength     <- strength(Survey_reach.g, vids = V(Survey_reach.g), mode = "all", loops = TRUE)
+V(Survey_reach.g)$in_strength  <- strength(Survey_reach.g, vids = V(Survey_reach.g), mode = "in",  loops = TRUE)
+V(Survey_reach.g)$out_strength <- strength(Survey_reach.g, vids = V(Survey_reach.g), mode = "out", loops = TRUE)
+
+# --- Weighted degree measures ---
+V(Survey_reach.g)$wei_degree     <- V(Survey_reach.g)$degree * ((V(Survey_reach.g)$strength / V(Survey_reach.g)$degree)^0.5)
+V(Survey_reach.g)$wei_indegree   <- V(Survey_reach.g)$indegree * ((V(Survey_reach.g)$in_strength / V(Survey_reach.g)$indegree)^0.5)
+V(Survey_reach.g)$wei_outdegree  <- V(Survey_reach.g)$outdegree * ((V(Survey_reach.g)$out_strength / V(Survey_reach.g)$outdegree)^0.5)
+
+# --- Optional: check results ---
+head(as_data_frame(Survey_reach.g, what = "vertices"))
+```
+
+# 4 Exporting to shp 
+use the igraph to shp function to export igraph object to shp file to be used for visualitation in Arcpro 
+
+## 4.1 Down_AIS 
+```{r}
+igraph2shp(GBI_g_metrics,shpOut = file.path(NRC_Network_Layer_Dir, "AIS_net_GBI_16_06_2023_NZTM"),CRSVal = "EPSG:2193")
+```
+
+
+## 4.2 Down Survey 
+```{r}
+igraph2shp(GBI_g_metrics,shpOut = file.path(NRC_Network_Layer_Dir, "AIS_net_GBI_16_06_2023_NZTM"),CRSVal = "EPSG:2193")
+```
+
+## 4.3 reach AIS 
+```{r}
+igraph2shp(GBI_g_metrics,shpOut = file.path(NRC_Network_Layer_Dir, "AIS_net_GBI_16_06_2023_NZTM"),CRSVal = "EPSG:2193")
+```
+
+## 4.4 Reach Survey 
+```{r}
+igraph2shp(GBI_g_metrics,shpOut = file.path(NRC_Network_Layer_Dir, "AIS_net_GBI_16_06_2023_NZTM"),CRSVal = "EPSG:2193")
+```
+
+
+# 5. Priorty sites bar plot 
+
+## 5.1 load in priorty sites csv 
+```{r}
+Northland_priority_list.df <- read_csv("data/Northland_dodged_barplot_data.csv")
+```
+
+## 5.2 plot dodged bar plot 
+```{r}
+
+```
+
+
+## 5.3 statistics
+
+### 5.3.1 Correlation betwen incoming vessels 
+Calculating the correation between the two datasets fro incoming vessels accross the 
+downstream networks
+```{r}
+head(Northland_priority_list.df)
+
+# Pivot the data so that AIS and Survey per_inc values are side-by-side for each Common_name
+correlation_df <- Northland_priority_list.df %>%
+  dplyr::select(Common_name, data, per_inc) %>%
+  pivot_wider(names_from = data, values_from = per_inc)   # drop rows where either is 0
+
+# Check the correlation
+cor_value <- cor(correlation_df$AIS, correlation_df$Survey, method = "pearson")
+cor_value
+
+cor_test_result <- cor.test(correlation_df$AIS, correlation_df$Survey, method = "pearson")
+cor_test_result
+```
+
+### 5.3.2 Overlapping sites:
+percent site overalap between the two datasets for the downstream networks 
+```{r}
+overlap_df <- Northland_priority_list.df %>%
+  dplyr::select(Common_name, data, per_inc) %>%
+  pivot_wider(names_from = data, values_from = per_inc, values_fill = 0)
+
+# Count total sites and overlapping sites
+total_sites <- nrow(overlap_df)
+overlapping_sites <- overlap_df %>%
+  filter(AIS > 0 & Survey > 0) %>%
+  nrow()
+
+# Percentage of overlap
+percent_overlap <- (overlapping_sites / total_sites) * 100
+percent_overlap
+```
+
+
+# 6. Relative Caulerpa pressure Vs Weighted out degree 
+this code plots the relationship between relative caulera pressure and weighted out degree and calculates the correlation. 
+
+## 6.1 Load bi plot csv 
+- load simplifed noe list with only metrcis of 
+ "per_inc"   and     "wei_outdegree" 
+```{r}
+Northland_biplot.df <- read_csv("data/Northland_weiOutDegree_biplot_data.csv")
+```
+
+## 6.2 plot biplot 
+```{r}
+
+```
+
+## 6.3 Correlation between Relative Caulerpa pressure and secondary spread (Weighted out degree) 
+
+### 6.3 AIS 
+```{r}
+biplot_AIS.df <- Northland_biplot.df %>% 
+  filter(data %in% c("AIS", "Unvisited"))
+
+# Correlation test
+cor_test_result_biplot_AIS <- cor.test(biplot_AIS.df$per_inc, biplot_AIS.df$wei_outdegree, method = "pearson")
+cor_test_result_biplot_AIS
+
+```
+
+## 6.4 survey 
+```{r}
+biplot_Survey.df <- Northland_biplot.df %>% 
+  filter(data %in% c("Survey", "Unvisited"))
+
+# correlation test
+cor_test_result_biplot_Survey <- cor.test(biplot_Survey.df$per_inc, biplot_Survey.df$wei_outdegree, method = "pearson")
+cor_test_result_biplot_Survey
+
+```
+
+
+
+

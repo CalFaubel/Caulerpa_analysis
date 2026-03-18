@@ -1,0 +1,69 @@
+nID,name,Common_name,data,per_inc,Common_name_label,n
+1056,Mainland Marina 4,Inner Whangarei Harb.,AIS,0,Inner Whangarei Harb.,2
+1056,Mainland Marina 4,Inner Whangarei Harb.,Survey,0.74,Inner Whangarei Harb.,2
+1115,Mainland Mooring 35,Inner BOI,AIS,5.95,**Inner BOI**,2
+1115,Mainland Mooring 35,Inner BOI,Survey,0.87,**Inner BOI**,2
+1116,Mainland Mooring 36,Outer BOI,AIS,11.9,**Outer BOI (Te Rāwhiti Inlet)**,2
+1116,Mainland Mooring 36,Outer BOI,Survey,31.38,**Outer BOI (Te Rāwhiti Inlet)**,2
+1117,Mainland Mooring 37,Te Puna Inlet,AIS,0,Te Puna Inlet,2
+1117,Mainland Mooring 37,Te Puna Inlet,Survey,0.18,Te Puna Inlet,2
+1120,Mainland Mooring 40,Mangonui,AIS,0,Mangonui,2
+1120,Mainland Mooring 40,Mangonui,Survey,1.68,Mangonui,2
+1121,Mainland Mooring 41,Tutukaka,AIS,4.76,**Tutukaka**,2
+1121,Mainland Mooring 41,Tutukaka,Survey,10.13,**Tutukaka**,2
+1122,Mainland Mooring 42,Outer Whangarei Harb.,AIS,17.86,**Outer Whangarei Harb.**,2
+1122,Mainland Mooring 42,Outer Whangarei Harb.,Survey,3.24,**Outer Whangarei Harb.**,2
+1123,Mainland Mooring 43,Central Whangarei Harb.,AIS,0,Central Whangarei Harb.,2
+1123,Mainland Mooring 43,Central Whangarei Harb.,Survey,0.13,Central Whangarei Harb.,2
+1124,Mainland Mooring 44,Whangaroa,AIS,3.57,**Whangaroa**,2
+1124,Mainland Mooring 44,Whangaroa,Survey,3.84,**Whangaroa**,2
+1125,Mainland Mooring 45,Motukawaiti Island,AIS,0,**Motukawaiti Island**,2
+1125,Mainland Mooring 45,Motukawaiti Island,Survey,4.21,**Motukawaiti Island**,2
+1126,Mainland Mooring 46,Bland Bay,AIS,2.38,**Bland Bay**,2
+1126,Mainland Mooring 46,Bland Bay,Survey,7.58,**Bland Bay**,2
+1127,Mainland Mooring 47,Whangaruru,AIS,1.19,**Whangaruru**,2
+1127,Mainland Mooring 47,Whangaruru,Survey,6.84,**Whangaruru**,2
+1187,Mainland MR 4,Poor Knights MPA,AIS,0,Poor Knights MPA,2
+1187,Mainland MR 4,Poor Knights MPA,Survey,0.37,Poor Knights MPA,2
+1203,Mainland MR 19,WGR Harb. MPA,AIS,2.38,WGR Harb. MPA,2
+1203,Mainland MR 19,WGR Harb. MPA,Survey,0.29,WGR Harb. MPA,2
+1227,Mainland CHS 3,Waitangi Stream,AIS,0,Waitangi Stream,2
+1227,Mainland CHS 3,Waitangi Stream,Survey,0.05,Waitangi Stream,2
+1229,Mainland CHS 5,Waimahana Bay,AIS,0,Waimahana Bay,2
+1229,Mainland CHS 5,Waimahana Bay,Survey,0.18,Waimahana Bay,2
+1231,Mainland CHS 7,Ngunguru,AIS,1.19,Ngunguru,2
+1231,Mainland CHS 7,Ngunguru,Survey,0.03,Ngunguru,2
+1232,Mainland CHS 8,Bream Bay,AIS,0,Bream Bay,2
+1232,Mainland CHS 8,Bream Bay,Survey,0.05,Bream Bay,2
+1400,Mainland Beach 34,Tokerau Beach,AIS,0,Tokerau Beach,2
+1400,Mainland Beach 34,Tokerau Beach,Survey,0.03,Tokerau Beach,2
+1437,Mainland Beach 70,Ocean Beach,AIS,0,Ocean Beach,2
+1437,Mainland Beach 70,Ocean Beach,Survey,0.03,Ocean Beach,2
+1444,Mainland Beach 75,Wairaka,AIS,0,Wairaka,2
+1444,Mainland Beach 75,Wairaka,Survey,0.29,Wairaka,2
+1473,Mainland Island 13,Hen Island,AIS,5.95,**Hen Island**,2
+1473,Mainland Island 13,Hen Island,Survey,0.03,**Hen Island**,2
+1477,Mainland Island 84,Pareparea Bay Islands,AIS,0,Pareparea Bay Islands,2
+1477,Mainland Island 84,Pareparea Bay Islands,Survey,0.26,Pareparea Bay Islands,2
+1573,Mainland Island 81,Sail Rock,AIS,1.19,Sail Rock,2
+1573,Mainland Island 81,Sail Rock,Survey,0,Sail Rock,2
+1575,Mainland Island 85,Cavalli Islands,AIS,0,Cavalli Islands,2
+1575,Mainland Island 85,Cavalli Islands,Survey,0.26,Cavalli Islands,2
+1577,Mainland Island 87,Moturoa Islands,AIS,1.19,Moturoa Islands,2
+1577,Mainland Island 87,Moturoa Islands,Survey,0,Moturoa Islands,2
+1606,Mainland Oysters 7,Whangaroa oyster farms,AIS,0,Whangaroa oyster farms,2
+1606,Mainland Oysters 7,Whangaroa oyster farms,Survey,1.32,Whangaroa oyster farms,2
+1663,Mainland Oysters 12,Taronui Bay,AIS,0,Taronui Bay,2
+1663,Mainland Oysters 12,Taronui Bay,Survey,0.79,Taronui Bay,2
+1666,Mainland Oysters 14,Rangaunu Harbour,AIS,0,Rangaunu Harbour,2
+1666,Mainland Oysters 14,Rangaunu Harbour,Survey,0.05,Rangaunu Harbour,2
+1669,Mainland Mussels 45,Houhora Bay,AIS,0,Houhora Bay,2
+1669,Mainland Mussels 45,Houhora Bay,Survey,0.03,Houhora Bay,2
+1679,Mainland Aquaculture 3,Inner NW BOI,AIS,0,**Inner NW BOI**,2
+1679,Mainland Aquaculture 3,Inner NW BOI,Survey,3.19,**Inner NW BOI**,2
+1683,Mainland Oysters 21,Inner BOI Oyster farms,AIS,20.24,**Inner BOI Oyster farms**,2
+1683,Mainland Oysters 21,Inner BOI Oyster farms,Survey,15,**Inner BOI Oyster farms**,2
+1684,Mainland Oysters 22,Outer BOI Oyster farms,AIS,7.14,**Outer BOI Oyster farms**,2
+1684,Mainland Oysters 22,Outer BOI Oyster farms,Survey,6.4,**Outer BOI Oyster farms**,2
+1685,Mainland Oysters 23,Whangarei Oyster farms,AIS,13.1,**Whangarei Oyster farms**,2
+1685,Mainland Oysters 23,Whangarei Oyster farms,Survey,0.53,**Whangarei Oyster farms**,2
